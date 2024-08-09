@@ -11,6 +11,7 @@ public class SiswaTester {
         Siswa nibras = new Siswa();
         Siswa gus = new Siswa();
         Siswa meno = new Siswa();
+        Siswa tegar = new Siswa();
 
         lam.id = 19;
         lam.nama = "gilam";
@@ -31,6 +32,10 @@ public class SiswaTester {
         meno.id = 24;
         meno.nama = "moreno";
         meno.ipk = 0;
+
+        tegar.id = 16;
+        tegar.nama = "tegar";
+        tegar.ipk =100;
         
         System.out.println("nama : "+lam.nama);        
         System.out.println("nomor absen : "+lam.id);
@@ -52,5 +57,8 @@ public class SiswaTester {
         System.out.println("nomor absen : "+meno.id);
         System.out.println("nilai : "+meno.ipk);
         
+        System.out.println("nama : "+tegar.nama);
+        System.out.println("nomor absen : "+tegar.id);
+        System.out.println("nilai : "+tegar.ipk);
     }
 }
